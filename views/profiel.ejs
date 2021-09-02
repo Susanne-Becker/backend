@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <%- include ("head.ejs") %>
+    <title>Gegevens</title>
+</head>
+
+<body>
+    <header>
+        <section>
+        <a href="/aanmelden"><img src="/static/images/back.png" alt="back" id="back"></a>
+        <h1>Jouw profiel</h1>
+        <img src="/static/upload/<%= image %>" alt="profiel foto" id="profielfoto">
+
+        <h2><%= name%><span><%=birthday%></span></h2>
+        
+        <button type="button" name="button" class="volgende">Zoek andere singels</button>
+        </section>
+    </header>
+</body>
+
+</html>

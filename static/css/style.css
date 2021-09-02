@@ -1,0 +1,172 @@
+*,
+:before,
+:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    line-height: 1.4em;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Arial;
+    margin: 0;
+    width: 100vw;
+}
+
+header {
+    background-color: white;
+}
+
+h1 {
+    padding: 0.1em 1.5em 0.5em;
+    margin-bottom: 0.5em;
+    margin-top: 22px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5em;
+    border-bottom: 1px solid palevioletred;
+}
+
+form, section {
+    width: 340px;
+    min-height: 65vh;
+    margin: auto;
+    margin-left: 4vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    background-color: pink;
+    position: absolute;
+    box-shadow: 1px 3px 12px -1px rgba(78, 77, 77, 0.34);
+}
+
+
+fieldset {
+    border: none;
+    padding-top: 1em;
+    color: pink;
+    margin: 0;
+    padding-left: 1em;
+}
+
+fieldset p {
+    color: white;
+}
+
+#login {
+    line-height: 1.7;
+    font-size: 0.8em;
+    font-family: arial;
+    text-align: center;
+}
+
+p>a {
+    color: white;
+    text-decoration: none;
+}
+
+label {
+    color: black;
+    font-size: 0.9em;
+    font-weight: normal;
+    padding-bottom: 0.4em;
+}
+
+input:required {
+    border: 2px solid white;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 0.5em 1em;
+    font-family: arial;
+    font-size: 0.9em;
+    background-color: #ffffff;
+    border: none;
+    margin: 0em 0em 0em;
+    display: block;
+}
+
+input:valid {
+    border: solid 1px rgb(47, 255, 64);
+}
+
+input:invalid {
+    border: 0px solid white;
+}
+
+.volgende {
+    background: palevioletred;
+    width: 100%;
+    color: white;
+    border: none;
+    margin-top: 2em;
+    padding: 0.75em;
+    position: absolute;
+    bottom: -1em;
+    text-decoration: none;
+    text-align: center;
+}
+
+input[type=radio] {
+    display: none;
+    position: relative;
+    left: -100px;
+}
+
+.geslacht label {
+    border: 1px solid black;
+    padding: 0.4em 2em;
+    font-family: arial;
+    font-size: 0.9em;
+    background-color: #e9e9e9;
+    border: none;
+    margin: 0em 0em 0em 0em;
+    display: block;
+    border: 1px solid #e9e9e9;
+}
+
+.geslacht{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2em 0em;
+    max-width: 320px;
+}
+
+#afbeelding-toevoegen{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 10px ;
+    margin-bottom: 40px;;
+}
+
+#profielfoto{
+    width: 300px;
+    margin: 20px;
+}
+#back{
+    width: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+h2{
+    margin-left: 20px;
+}
+span{
+    display: block;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.geslacht input[type="radio"]:checked+label {
+    background-color: rgb(56, 207, 68);
+}
